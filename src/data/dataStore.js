@@ -17,13 +17,13 @@ export const settings = {
   defaultColumnIcon: 'list-alt',
 };
 
-const info = {
+export const info = {
   title: 'Info',
   description: 'INFO: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
-const faq = {
+export const faq = {
   title: 'FAQ',
   description: 'FAQ: Lorem ipsum dolor sit amet, consectetur adipiscing elit laborum!!!',
   image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
@@ -91,9 +91,21 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
-    description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    title: 'TO DO',
+    description: 'Interesting things I am plannig to do',
+    image: 'https://images.pexels.com/photos/316465/pexels-photo-316465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=100',
+  },
+  {
+    id: 'list-2',
+    title: 'DOING',
+    description: 'Interesting things I I started to do',
+    image: 'https://images.pexels.com/photos/1007025/pexels-photo-1007025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=100',
+  },
+  {
+    id: 'list-3',
+    title: 'DONE',
+    description: 'Interesting things I already done!',
+    image: 'https://images.pexels.com/photos/193821/pexels-photo-193821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=100',
   },
 ];
 

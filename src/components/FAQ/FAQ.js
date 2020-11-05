@@ -1,12 +1,12 @@
 import React from 'react';
 import Container from '../Container/Container';
-import Hero from '../Hero/Hero.js';
+import { faq } from '../../data/dataStore';
+import Hero from '../Hero/Hero';
 
-const FAQ = (props) => (
+const FAQ = () => (
   <Container>
-    <h2>FAQ</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit laborum!!!</p>
-    <Hero />
+    <Hero  titleText={faq.title} image={faq.image} />
+    <p>{faq.description}</p>
   </Container>
 );
 
